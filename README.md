@@ -14,7 +14,7 @@ PROGRAM STEPS
 - Calls the get_list_of_files() method for each directory
   - This method recursively searches through the directory using os.listdir(), populating a list of the files contained in that directory with their filepaths using os.path.join(), then returns the list of all the files within the directory
 - Iterate through each of the returned lists, slicing off the filepath for each entry before the actual directory being compared
-  - This ensures that the program is just comparing the contents of the directories in question, as including the extra filepath information would cause every file to be flagged as different as the directories could be in completely differnt places
+  - This ensures that the program is just comparing the contents of the directories in question, as including the extra filepath information would cause every file to be flagged as different as the directories could be in completely different places
 - Compare the two lists by converting them to sets, then using the set.difference() method twice to create two sets of the different files
 - Print the ###TO BE CONTINUED
 
