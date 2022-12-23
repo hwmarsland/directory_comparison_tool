@@ -10,6 +10,7 @@ USAGE
 PROGRAM STEPS
 - Collect the information from the command line call
 - Calls the directory_comparison() method with the information from the command line
+  - ###EXPLAIN WHAT THIS METHOD DOES (OUTER METHOD THAT HANDLES COMPARISON)
 - Calls the get_list_of_files() method for each directory
   - This method recursively searches through the directory using os.listdir(), populating a list of the files contained in that directory with their filepaths using os.path.join(), then returns the list of all the files within the directory
 - Iterate through each of the returned lists, slicing off the filepath for each entry before the actual directory being compared
