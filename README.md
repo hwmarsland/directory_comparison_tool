@@ -6,7 +6,7 @@ DESCRIPTION
 
 USAGE
 - This program is run through the command line with the line "python directory_comparison_tool.py &lt;filepath 1&gt; &lt;filepath 2&gt;" but has a reminder of proper usage if this line is not input properly.
-- The filepath portions are to be filled with the filepaths of the directories that the user would like to be compared.
+- The filepath portions are to be filled with the full filepaths of the directories that the user would like to be compared.
 
 PROGRAM STEPS
 - Collect the information from the command line call
