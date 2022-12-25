@@ -1,4 +1,4 @@
-# directory_comparison_tool
+# Directory Comparison Tool
 
 DESCRIPTION
 - This program is a simple tool that takes an input of the filepaths of two directories, recursively searches through them, and compares the files within to see if there are any differences between the files contained in each directory. It returns the files that are different between each directory and where those files are, or None if the directories contain the same files in the same places.
